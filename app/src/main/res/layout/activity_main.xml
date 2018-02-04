@@ -11,12 +11,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="24dp"
-        android:text="tel:010-2602-0672" />
+        android:hint="PDF 파일명을 입력하세요" />
 
     <Button
         android:id="@+id/button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="전화걸기"
+        android:text="열기"
         android:onClick="onButton1Clicked"/>
 </LinearLayout>
